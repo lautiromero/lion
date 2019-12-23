@@ -49,7 +49,7 @@ export default {
           direccion: 'Victorino Rodríguez 1952, Bº Cerro de las Rosas',
           telefono: '<b>Teléfono Administración:</b></br>(0351) 487-9500(Lineas Rotativas)</br><b>FAX</b>:(0351) 487-9500',
           horario: '<b>Horario de atención:</b></br>Lunes a Viernes: 08:00 a 20:00</br>Sábado:08:00 a 20:00',
-          imagen: 'https://financegroup.com.ar/API/sucursales/Catamarca.png',
+          imagen: 'https://financegroup.com.ar/API/sucursales/Cordoba.png',
           // img: '/src/assets/sucursales/1.png',
           mapa:'cordoba'
         },
@@ -110,7 +110,7 @@ export default {
       direccion: 'Victorino Rodríguez 1952, Bº Cerro de las Rosas',
       telefono: '<b>Teléfono Administración:</b></br>(0351) 487-9500(Lineas Rotativas)</br><b>FAX</b>:(0351) 487-9500',
       horario: '<b>Horario de atención:</b></br>Lunes a Viernes: 08:00 a 20:00</br>Sábado:08:00 a 20:00',
-      imagen: 'https://financegroup.com.ar/API/sucursales/Catamarca.png',
+      imagen: 'https://financegroup.com.ar/API/sucursales/Cordoba.png',
       mapa: 'cordoba',
       clicked: 0
     }
