@@ -101,8 +101,10 @@ export default {
         {
           id:6,
           nombre: 'SUCURSAL NEUQUÉN',
-          telefono: '<h5>PROXIMAMENTE...</h5>',
-          imagen:'prox',
+          direccion: 'Illia 44 - Local 1',
+          telefono: '<b>Teléfono Comercial:</b></br>(299) 507-7069',
+          horario: '<b>Horario de atención:</b></br>Lunes a Viernes: 09:00 a 13:00 y 17:30 a 21:00</br>Sábado:10:00 a 13:00',
+          imagen: 'prox',
           mapa: 'neuquen'
         }
       ],

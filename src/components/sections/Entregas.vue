@@ -35,6 +35,12 @@
           <span>COMODORO R.</span>
         </div>
       </div>
+      <div class="sucursal d-flex justify-content-around" v-on:click="filtrar('NEUQUÉN')">
+        <div class="white-box"><img src="../../assets/provincias/neuquen.png" alt="" height="25px"></div>
+        <div class="tittle">
+          <span>NEUQUÉN</span>
+        </div>
+      </div>
     </div>
     <div class="entregas mt-2 row">
       <div class="col-md-3 mb-3" v-for="entrega in lista" v-if="provincia == entrega.sucursal || provincia === 'todas'">
