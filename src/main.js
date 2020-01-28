@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 import '@fortawesome/fontawesome-free/js/all.js';
 import VueRouter from 'vue-router';
+import VueAnalytics from 'vue-analytics'
 
 // SECCIONES
 import Home from './components/sections/Home';
@@ -16,6 +17,11 @@ import Sucursales from './components/sections/Sucursales';
 import Entregas from './components/sections/Entregas';
 import Novedades from './components/sections/Novedades';
 import Contacto from './components/sections/Contacto';
+
+
+Vue.use(VueAnalytics, {
+  id: 'UA-156391190-1'
+})
 
 Vue.use(VueRouter);
 

@@ -8,13 +8,13 @@
         <input type="text" class="form-control" id="inputNombre" placeholder="Nombre" name="nombre">
       </div>
       <div class="form-group">
-        <input type="email" class="form-control" id="inputEmail"placeholder="E-mail" name="email">
+        <input type="email" class="form-control" id="inputEmail"placeholder="E-mail" name="email" required>
       </div>
       <div class="form-group">
-        <input type="text" class="form-control" id="inputTelefono" placeholder="Telefono" name="telefono">
+        <input type="text" class="form-control" id="inputTelefono" placeholder="Telefono" name="telefono" required>
       </div>
       <div class="form-group">
-        <textarea class="form-control" id="textarea" rows="3" placeholder="Mensaje" name="mensaje"></textarea>
+        <textarea class="form-control" id="textarea" rows="3" placeholder="Mensaje" name="mensaje" required></textarea>
       </div>
 
       <button type="submit" class="btn btn-primary" id="submit">CONSULTAR</button>
