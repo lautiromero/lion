@@ -52,8 +52,8 @@
           <img :src="modal.imagen" :alt="modal.titulo" class="w-100">
         </div>
         <h6>{{modal.descripcion}}</h6>
-        <div class="content">
-          {{modal.contenido}}
+        <div class="content" v-html="modal.contenido">
+          <!-- {{modal.contenido}} -->
         </div>
       </div>
       <div class="modal-footer">
@@ -134,6 +134,7 @@ export default {
 
 .caja-left{
   border-right: 3px white solid;
+  overflow-y: scroll;
 }
 .modal *{
   color: rgb(38, 38, 38);
@@ -147,7 +148,6 @@ export default {
     /* background-color: rgba(5, 4, 5, 0.42); */
     padding-left: 20px;
     padding-top: 10px;
-    /* overflow-y: scroll; */
   }
 }
 /* AJUSTES MOVILES */
